@@ -1,0 +1,9 @@
+{
+    "name": "todo",
+    "version": "0.0.1",
+    "title": "Todo App recreation with crud",
+    "description": "Todo App recreation with crud",
+    "keywords": [
+        "crud"
+    ]
+}
