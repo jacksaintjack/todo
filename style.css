@@ -13,9 +13,21 @@ body:before {
   opacity: .1;
   z-index: -5;
   }
+  .title{
+    float: left;
+    margin-left: 0px;
+    height: 9em;
+    width: 100%;
+  }
+
+  .title span{
+    font-size: 10em;
+    font-family: sans-serif;
+    color: rgba(128, 128, 128, 0.59);
+  }
 
 .toDoBottom{
-  height: 45em;
+  height: 43em;
     width: 77%;
     background-color: white;
     float: left;
@@ -26,7 +38,7 @@ body:before {
     border-right:1px solid #D8D8D8;
 }
 .toDoMiddle{
-  height: 45em;
+  height: 43em;
   width: 103%;
   background-color: white;
   float: left;
@@ -36,8 +48,8 @@ body:before {
   border-left:1px solid #D8D8D8;
   border-right:1px solid #D8D8D8;
 }
-.toDoTop{
-  height: 45em;
+.container-fluid{
+  height: 43em;
   width: 102%;
   background-color: white;
   float: left;
@@ -45,18 +57,42 @@ body:before {
   margin-left: -0.9%;
   border: 1px solid #D8D8D8;
   box-shadow: 1px -4px 8px 1px #CACACA;
-  }
+  padding:0;
+}
 
-.title{
+.col-sm-12 {
+  padding:0;
+  height: 15%;
+  border-bottom:1px solid #E6E6E6;
+
+}
+.col-md-12 {
+  padding:0;
+  height: 15%;
+  border-bottom:1px solid #E6E6E6;
+}
+.col-lg-12{
+  padding:0;
+  height: 15%;
+  border-bottom:1px solid #E6E6E6;
+}
+
+.chevron{
+  color: #E5E5E5;
   float: left;
-  margin-left: 0px;
-  height: 12em;
-  width: 100%;
+  font-size: 2em;
+  margin-top: 3%;
+  margin-left: 1%;
 
 }
 
-.title span{
-  font-size: 10em;
-  font-family: sans-serif;
-  color: rgba(128, 128, 128, 0.59);
+.input{
+  border: none;
+  font-size: 2em;
+  float: left;
+  font-style: italic;
+  font-family: serif;
+  margin-left: 4%;
+  margin-top: 2.5%;
+  width: 84%;
 }

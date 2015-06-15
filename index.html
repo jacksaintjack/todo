@@ -3,18 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel ="stylesheet" href="bower_components/octicons/octicons/octicons.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+
+  <script type="text/template" id="newRowTmpl">
+    <div class = "col-sm-12 col-md-12 col-lg-12">
+      <span class="octicon octicon-chevron-down chevron"></span>
+      <span class="addedList"> <% input %> </span>
+    </div>
+  </script>
+
 </head>
 <body>
 
   <div class = "title">
-  <center><span>  todas</span> </center>
+  <center><span>todas</span> </center>
   </div>
 
   <div class = "toDoBottom">
     <div class = "toDoMiddle">
-      <div class ="toDoTop">
+      <div class ="container-fluid">
+        <div class = "col-sm-12 col-md-12 col-lg-12">
+          <span class="octicon octicon-chevron-down chevron"></span>
+          <input class="input" type="text" name="toDoList" value="" placeholder="What needs to be done?">
+            <div class ="newlyAdded">
+            </div>
+        </div>
       </div>
     </div>
   </div>
