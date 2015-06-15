@@ -1,7 +1,7 @@
 var templates{};
 //Adds an item in the do do list
 templates.postList = [
-"<div class = 'col-sm-12 col-md-12 col-lg-12'>",
+"<div class = 'col-sm-12 col-md-12 col-lg-12' data-id='<%= _id %>'>>",
 "<span class='octicon octicon-chevron-down chevron'></span>",
 "<span class='addedList'> <% input %> </span>",
 "</div>"
